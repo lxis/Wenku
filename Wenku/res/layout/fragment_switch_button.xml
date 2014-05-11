@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="bottom"
+    android:background="#aa0000"
+    >"
+    <TextView
+        android:id="@+id/button1"
+        android:layout_width="160dp"
+        android:text="百度文库"  
+        android:layout_height="fill_parent"
+        android:layout_weight="1"      
+        android:gravity="center"        
+        android:background="#aa0000"
+        />
+    <TextView
+        android:id="@+id/onlineWenkuButton"
+        android:layout_width="160dp"
+        android:text="搜索"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"      
+        android:gravity="center"       
+        android:background="#00aa00"
+        />
+    <TextView 
+        android:id="@+id/meButton"
+        android:layout_width="160dp"
+        android:text="登陆"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"      
+        android:gravity="center"            
+        android:background="#0000aa"
+        />
+</LinearLayout>
