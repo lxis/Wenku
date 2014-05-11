@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical" 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+<LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:background="#3D4351"
+         >        
+        <TextView            
+            android:id="@+id/textViewArticleTitle"
+	        android:layout_gravity="center"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	         
+	        android:textColor="#FFFFFF"
+	        android:layout_marginLeft="10dp"
+	        android:textSize="20dp"
+	        
+        android:maxLines="1" 
+        android:ellipsize="end"
+             />
+        
+    </LinearLayout>
+
+    <ScrollView 
+        android:layout_height="fill_parent"
+        android:layout_width="fill_parent"  
+        android:id="@+id/readerScroll"      
+        >
+        <LinearLayout 
+            android:id="@+id/rootGrid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            
+    <Button
+    android:id="@+id/buttonLoadMore"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="加载更多"
+    android:layout_gravity="center_horizontal"
+    android:visibility="gone"
+     />
+            </LinearLayout>    
+</ScrollView>
+
+</LinearLayout>
